@@ -5,8 +5,10 @@
 }
 html body{
     
-    height: 100vh;
+    min-height: 100vh;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: purple;
@@ -47,4 +49,11 @@ section div{
     padding: 30px;
     background-color: white;
     width: 300px;
+}
+footer{
+    background-color: lightsteelblue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
 }
