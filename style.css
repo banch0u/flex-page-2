@@ -20,9 +20,10 @@ main{
     
 }
 nav{
-    width: 1000px   ;
+    width: 350px;
     background-color: blue;
     color: white;
+    flex-shrink: 0;
 }
 nav div{
     margin: 10px;
@@ -31,4 +32,19 @@ nav div{
 nav div a{
     text-decoration: none;
     color: white;
+}
+section{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-around;
+
+}
+section div{
+    box-shadow: 2px 4px 16px grey;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    width: 300px;
 }
